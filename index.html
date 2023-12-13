@@ -13,7 +13,7 @@
     <script type="module" src="./assets/script/Utilities.js" defer></script>
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet'/>
-
+    <script src="./assets/script/index.js" type="module"></script>
 </head>
 <body>
     <header>
@@ -30,7 +30,41 @@
             </nav>
         </div>
     </header>
-    <div class="map"></div>
-    <button class="location-button">map</button>
+    <main class="container">
+        <section>
+            <h1>Welcome To <span class="purple">Track</span> !</h1>
+            <p class="track-text">
+                At Track, we understand the importance of timely and reliable deliveries. 
+                Our state-of-the-art tracking system empowers you to stay informed about 
+                the status of your shipments in real-time.
+            </p>
+        </section>
+        
+        <section id="socials" class="socials">
+            <div class="social">
+                <p>You can check out our socials here!</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="track" class="track">
+            <h2 class="track-h2">Track Your Package!</h2>
+            <div class="track-location">
+                <p class="track-package">
+                    Easily track your packages and stay updated on their real-time location. 
+                    Use our advanced tracking system to ensure timely deliveries and keep 
+                    your shipments on your radar every step of the way.
+                </p>
+                <button><a href="#">Track</a></button>
+            </div>
+            <div class="map"></div>
+        </section>
+        <div class="map"></div>
+      <button class="location-button">map</button>
+    </main>
 </body>
 </html>
