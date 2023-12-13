@@ -15,4 +15,7 @@ There is a simple example of the website of the company that deliver the food wi
 </p>
 
 # Demo
-[Click here]() to check the website
+[Click here](https://maksimdimov.github.io/track/) to check the website.
+
+# Authors
+[Maksim Dimov](https://github.com/MaksimDimov) , [Nifemi Leye](https://github.com/nnifemi)
