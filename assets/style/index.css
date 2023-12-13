@@ -85,7 +85,7 @@ span.login:hover {
 }
 
 main {
-    height: 150vh;
+    height: 210vh;
 }
 
 h1 {
@@ -227,4 +227,10 @@ button a {
 button:hover {
     background-color: #a30ba3;
     transition: all 0.3s ease-in-out;
+}
+
+div.map {
+    max-height: fit-content;
+    max-width: 100%;
+    border-radius: 5px;
 }
