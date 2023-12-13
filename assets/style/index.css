@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    background-color: #e1e1e1;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+header {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+
+.flexbox {
+    display: flex;
+}
+
+h2 a {
+    color: #770e77;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 80%;
+    letter-spacing: 0.4px;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    text-align: right;
+    margin-top: 14px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0 10px; 
+    border-radius: 5px; 
+}
+
+nav a:hover {
+    transition: all 0.3s ease-in-out;
+    color: #a30ba3; 
+}
+
+span.login {
+    border-style: none;
+    background-color: #770e77;
+    padding: 8px 18px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+span.login:hover {
+    background-color: #a30ba3;
+    transition: all 0.3s ease-in;
+}
+
+main {
+    height: 90vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 2.5rem;
+}
+
+span.purple {
+    color: #a30ba3;
+}
+
+p.track-text {
+    text-align: center;
+    width: 100vh;
+    height: 100vh;
+    margin: auto;
+    margin-top: 1px;
+}
+
+.socials {
+    background-image: url('../img/socials.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: fit-content;
+    position: absolute;
+    top: 10vh;
+    right: 1px;
+    margin-top: 30vh;
+    height: 80vh;
+    width: 100%;    
+    color: #fff; 
+    text-align: center; 
+    z-index: -2;
+}
+
+.socials::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.socials p {
+    margin-top: 30vh;
+    color: #fff;
+    z-index: 1;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 6px;
+    cursor: pointer; 
+}
+
+::-webkit-scrollbar-track {
+    cursor: pointer; 
+    background-color: #f1f1f1;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #666 #f1f1f1;
+}
+
+section div p {
+    font-size: 26px;
+}
+
+i.fa-brands {
+    margin-right: 10px;
+    z-index: 1;
+    font-size: 30px;
+}
+
+i.fa-brands:hover {
+    color: #808080;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
