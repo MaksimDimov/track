@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/index.css" media="all">
+    <script type="module" src="./assets/script/index.js" defer></script>
+    <script type="module" src="./assets/script/Utilities.js" defer></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet'/>
+
 </head>
 <body>
     <header>
@@ -25,5 +30,9 @@
             </nav>
         </div>
     </header>
+    <main>
+        <div class="map"></div>
+        <button class="location-button">Get Location</button>
+    </main>
 </body>
 </html>

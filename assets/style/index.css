@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.map {
+    height: 500px;
+    width: 1000px;
+}
+
+.custom-marker {
+    background-color: #ff0000; /* Red background color */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* Make it a circle */
+}
