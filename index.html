@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./assets/style/index.css" media="all">
+    <script src="./assets/script/index.js" type="module"></script>
 </head>
 <body>
     <header>
@@ -36,14 +37,28 @@
         </section>
         
         <section id="socials" class="socials">
-            <div>
+            <div class="social">
                 <p>You can check out our socials here!</p>
-                <i class="fa-brands fa-tiktok"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-youtube"></i>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
             </div>
-            </section>
-    </main>
+        </section>
+
+        <section id="track" class="track">
+            <h2 class="track-h2">Track Your Package!</h2>
+            <div class="track-location">
+                <p class="track-package">
+                    Easily track your packages and stay updated on their real-time location. 
+                    Use our advanced tracking system to ensure timely deliveries and keep 
+                    your shipments on your radar every step of the way.
+                </p>
+                <button><a href="#">Track</a></button>
+            </div>
+            <div class="map"></div>
+        </section>
     </main>
 </body>
 </html>
