@@ -21,7 +21,7 @@ function getLocaton(position) {
     const customMarker = document.createElement('div');
     customMarker.className = 'custom-marker';
 
-    new mapboxgl.Marker(customMarker)
+    new mapboxgl.Marker()
     .setLngLat([longitude, latitude])
     .addTo(map);
 }
