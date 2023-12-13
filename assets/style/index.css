@@ -85,7 +85,7 @@ span.login:hover {
 }
 
 main {
-    height: 90vh;
+    height: 150vh;
 }
 
 h1 {
@@ -160,19 +160,71 @@ p.track-text {
     scrollbar-color: #666 #f1f1f1;
 }
 
-section div p {
+section div.social p {
     font-size: 26px;
 }
 
-i.fa-brands {
+i {
     margin-right: 10px;
     z-index: 1;
+    color: #fff;
     font-size: 30px;
 }
 
-i.fa-brands:hover {
-    color: #808080;
-    z-index: 1;
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     cursor: pointer;
+}
+
+.fa-tiktok:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    transition: all 0.3s ease-in-out;
+    color: #a30ba3; 
+}
+
+h2.track-h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+p.track-package {
+    text-align: center;
+    margin-top: 1px;
+}
+
+button {
+    border-style: none;
+    background-color: #770e77;
+    padding: 12px 22px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 200;
+    margin: auto;
+}
+
+.track-location {
+    text-align: center;
+}
+
+.track-package {
+    margin-bottom: 20px;
+}
+
+button a {
+    color: #fff;
+}
+
+button:hover {
+    background-color: #a30ba3;
     transition: all 0.3s ease-in-out;
 }
